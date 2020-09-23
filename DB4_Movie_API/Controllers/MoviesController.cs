@@ -102,8 +102,10 @@ namespace DB4_Movie_API.Controllers
         //Movies/ -> All Movies
         //Movies/Like/Mulan -> title is like Mulan
         //Movies/Horror -> All category horror movies
-        //Movies/Random?show=10 -> 10 random horror movies
-        //Movies/Find?title=Mulan -> gives mulan
+        //Movies/Random/10 -> 10 random movies
+        //Movies/Random/Horro -> A random horror movie
+        //Movies/Random -> a random movie, any category
+        //Movies/Find/Mulan -> title is mulan
         //Movies/Categories
         //
     }
